@@ -13,4 +13,4 @@ app.use(bodyParser.json());
 //routes
 app.use('/api', require('./routes/api'));
 
-app.listen(3000);
+app.listen(80);
