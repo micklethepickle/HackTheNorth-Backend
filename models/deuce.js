@@ -3,9 +3,12 @@ var mongoose = restful.mongoose;
 
 //schema
 var deuceSchema = new mongoose.Schema({
+	_id: Number,
 	name: String,
-	lengthOfDeuce: String,
-	timeOfDeuce: String
+	longestDeuce: Number,
+	shortestDeuce: Number,
+	numberOfDeuces: Number,
+	averageLengthOfDeuce: Number
 });
 
 //return model
